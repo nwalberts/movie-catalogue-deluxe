@@ -6,7 +6,6 @@ CREATE TABLE actors (
   update_at TIMESTAMP
 );
 
-
 CREATE TABLE cast_members (
   id SERIAL PRIMARY KEY,
   movie_id INTEGER NOT NULL,

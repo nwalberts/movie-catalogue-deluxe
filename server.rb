@@ -2,6 +2,7 @@ require "sinatra"
 require "pg"
 require 'pry'
 
+
 configure :development do
   set :db_config, { dbname: "movies" }
 end
